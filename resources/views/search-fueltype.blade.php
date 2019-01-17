@@ -6,7 +6,6 @@
     <p>Step 1 of 4</p>
 </div>
 
-
 <div class="container">
     <img class="icon" src="https://via.placeholder.com/150x150">
     <h2 class="title">Choose your preferred fuel type</h2>

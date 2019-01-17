@@ -1,45 +1,37 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class='container'>
-        <div class='row'>
-            <div class='col-12 text-center mb-2'>
-                <h3>Choose Size</h3>
-                <p>Choices so far: {{$fueltype}}</p>
-            </div>
-        </div>
+<div class="stepper">
+    <p>Find a vehicle</p>
+    <p>Step 2 of 4</p>
+</div>
 
-        <div class='row'>
-            <div class='col-12 mb-3'>
-                <div class='card p-5 d-flex align-items-center justify-content-center'>
-                    <a href='/size/large'>
-                        <h5 class='text-dark'>Large (SUV, Estate etc)</h5>
-                    </a>
-                </div>
-            </div>
+<div class="container">
+    <img class="icon" src="https://via.placeholder.com/150x150">
+    <h2 class="title">Choose your preferred car size</h2>
+    <p class="choices">Choices so far: {{$fueltype}}</p>
 
-            <div class='col-12 mb-3'>
-                <div class='card p-5 d-flex align-items-center justify-content-center'>
-                    <a href='/size/medium'>
-                        <h5 class='text-dark'>Medium (Saloons, coupes etc)</h5>
-                    </a>
-                </div>
-            </div>
-            <div class='col-12 mb-3'>
-                <div class='card p-5 d-flex align-items-center justify-content-center'>
-                    <a href='/size/small'>
-                        <h5 class='text-dark'>Small (Hatchbacks)</h5>
-                    </a>
-                </div>
-            </div>
-            <div class='col-12 mb-4'>
-                <div class='p-2 d-flex align-items-center justify-content-center'>
-                    <a href='/mycar'>
-                        <h5 class='text-dark'>I don't care</h5>
-                    </a>
-                </div>
-            </div>
-        </div>
+    <div class="grid">
+        <a class="card card--half" href='/size/large'>
+            <h3 class="card__title">Large (SUV, Estate etc)</h3>
+        </a>
+
+        <a class="card card--half" href='/size/medium'>
+            <h3 class="card__title">Medium (Saloons, coupes etc)</h3>
+        </a>
+
+        <a class="card card--half" href='/size/small'>
+            <h3 class="card__title">Small (Hatchbacks)</h3>
+        </a>
+
+        <a class="card card--half" href='/mycar'>
+            <h3 class="card__title">I don't care</h3>
+        </a>
     </div>
+</div>
 
+<footer class="footer">
+    <a href="/search" class="ch-btn ch-btn--block ch-btn--success hero__button">Next</a>
+    <a href="#"><p>I’m not sure, show me vehicles</p></a>
+</footer>
 @endsection

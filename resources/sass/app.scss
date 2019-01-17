@@ -143,11 +143,11 @@ body {
 .footer {
     padding: 20px;
     padding-bottom: 0;
-    position: fixed;
-    bottom: 0;
-    background: #fff;
+    // position: fixed;
+    // bottom: 0;
+    // background: #fff;
     width: 100%;
-    border-top: 1px solid #ddd;
+    // border-top: 1px solid #ddd;
 
     p {
         margin-top: 10px;
@@ -168,4 +168,8 @@ body {
 .icon {
     width: 50px;
     margin-bottom: 10px;
+}
+
+.choices {
+    font-size: 16px;
 }
