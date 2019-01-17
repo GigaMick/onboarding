@@ -22,6 +22,10 @@
 </head>
 <body>
     <div id="app">
+        <header class="header">
+            <a href="/"><img class="header__logo" src="../images/logo.png"></a>
+            <img class="header__menu" src="../images/menu.png">
+        </header>
         <main>
             @yield('content')
         </main>
