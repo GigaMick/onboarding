@@ -12,7 +12,7 @@
         <div class='row'>
             <div class='col-12 mb-3'>
                 <div class='card p-5 d-flex align-items-center justify-content-center'>
-                    <a href='/size/large'>
+                    <a href='/size/{{$fueltype}}/large'>
                         <h5 class='text-dark'>Large (SUV, Estate etc)</h5>
                     </a>
                 </div>
@@ -20,14 +20,14 @@
 
             <div class='col-12 mb-3'>
                 <div class='card p-5 d-flex align-items-center justify-content-center'>
-                    <a href='/size/medium'>
+                    <a href='/size/{{$fueltype}}/medium'>
                         <h5 class='text-dark'>Medium (Saloons, coupes etc)</h5>
                     </a>
                 </div>
             </div>
             <div class='col-12 mb-3'>
                 <div class='card p-5 d-flex align-items-center justify-content-center'>
-                    <a href='/size/small'>
+                    <a href='/size/{{$fueltype}}/small'>
                         <h5 class='text-dark'>Small (Hatchbacks)</h5>
                     </a>
                 </div>
