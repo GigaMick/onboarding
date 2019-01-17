@@ -16872,6 +16872,22 @@ html {
   background: #fafafa;
 }
 
+.header {
+  background: #2d3737;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 3px solid #ffde00;
+}
+.header__logo {
+  width: 160px;
+  height: 100%;
+}
+.header__menu {
+  width: 20px;
+}
+
 body {
   margin: 0;
 }

@@ -1,6 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
+<header class="header">
+    <img class="header__logo" src="../images/logo.png">
+    <img class="header__menu" src="../images/menu.png">
+</header>
+
 <div class="hero">
     <h1 class="hero__title">Let's find your <span class="nowrap">next car</span></h1>
     <p class="hero__intro">Search 33,114 used cars at <span class="nowrap">the UK’s</span> number 1 dealer website</p>
