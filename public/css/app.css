@@ -16872,6 +16872,10 @@ html {
   background: #fafafa;
 }
 
+body {
+  margin: 0;
+}
+
 .header {
   background: #2d3737;
   display: flex;
@@ -16888,10 +16892,6 @@ html {
   width: 20px;
 }
 
-body {
-  margin: 0;
-}
-
 .nowrap {
   white-space: nowrap;
 }
@@ -16902,8 +16902,7 @@ body {
 }
 
 .hero {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 120px 30px;
   text-align: center;
   background-image: url("https://via.placeholder.com/150x150");
   background-size: cover;
@@ -16924,13 +16923,30 @@ body {
 }
 
 .card {
+  grid-column: span 12;
   background: #fff;
-  grid-column: span 6;
   border-radius: 6px;
   border: 2px solid #e5e5e5;
-  padding: 40px;
+  padding: 30px;
   align-self: center;
   display: flex;
   align-items: center;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.02);
   text-decoration: none !important;
+}
+.card--primary {
+  margin-top: -60px;
+}
+.card--half {
+  grid-column: span 6;
+}
+.card__icon {
+  width: 50px;
+  margin-bottom: 10px;
+}
+.card__description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+  margin-bottom: 0;
 }
