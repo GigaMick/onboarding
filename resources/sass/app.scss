@@ -1,14 +1,64 @@
-
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+// @import url('https://fonts.googleapis.com/css?family=Nunito');
 
 // Variables
 @import 'variables';
+@import 'chassis';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+html {
+    background: #fafafa;
+}
+
+body {
+    margin: 0;
+}
+
+// global
+.nowrap {
+    white-space: nowrap;
+}
+
+.container {
+    padding: 30px;
+    text-align: center;
+}
+
+.hero {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    background-image: url('https://via.placeholder.com/150x150');
+    background-size: cover;
+    background-position: center center;
+
+    &__title {
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    &__intro {
+        font-size: 18px;
+    }
+}
+
+// main
+.grid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.card {
+    background: #fff;
+    grid-column: span 6;
+    border-radius: 6px;
+    border: 2px solid #e5e5e5;
+    padding: 40px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    text-decoration: none !important;
 }
