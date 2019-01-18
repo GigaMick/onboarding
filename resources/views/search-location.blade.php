@@ -27,6 +27,7 @@
         <input type="hidden" name='size' value='{{$size}}'>
         <input class='ch-btn ch-btn--block ch-btn--success' type='submit' value='Submit'>
     </form>
+
     <form action="/summary" method='post'>
         @csrf
         <input type="hidden" name='fueltype' value='{{$fuel}}'>

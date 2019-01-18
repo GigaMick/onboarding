@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-<<<<<<< HEAD
 <header class="header">
     <a href="/"><img class="header__logo" src="../images/logo.png"></a>
     <img class="header__menu" src="../images/menu.png">
@@ -17,61 +16,21 @@
     <h2 class="title">Choose your preferred fuel type</h2>
 
     <div class="grid">
-        <a class="card card--half" href='/search/petrol'>
+        <a class="card card--half" href='/search/Petrol'>
             <h3 class="card__title">Petrol</h3>
         </a>
 
-        <a class="card card--half" href='/search/diesel'>
+        <a class="card card--half" href='/search/Diesel'>
             <h3 class="card__title">Diesel</h3>
         </a>
 
-        <a class="card card--half" href='/search/electric'>
+        <a class="card card--half" href='/search/Electric'>
             <h3 class="card__title">Electric</h3>
         </a>
 
         <a class="card card--half" href='/mycar'>
             <h3 class="card__title">No preference</h3>
         </a>
-=======
-    <div class='container'>
-        <div class='row'>
-            <div class='col-12 text-center mb-2'>
-                <h3>Choose Fuel type</h3>
-            </div>
-        </div>
-
-        <div class='row'>
-            <div class='col-12 mb-3'>
-                <div class='card p-5 d-flex align-items-center justify-content-center'>
-                    <a href='/search/Petrol'>
-                        <h5 class='text-dark'>Petrol</h5>
-                    </a>
-                </div>
-            </div>
-
-            <div class='col-12 mb-3'>
-                <div class='card p-5 d-flex align-items-center justify-content-center'>
-                    <a href='/search/Diesel'>
-                        <h5 class='text-dark'>Diesel</h5>
-                    </a>
-                </div>
-            </div>
-            <div class='col-12 mb-3'>
-                <div class='card p-5 d-flex align-items-center justify-content-center'>
-                    <a href='/search/Electric'>
-                        <h5 class='text-dark'>Electric</h5>
-                    </a>
-                </div>
-            </div>
-            <div class='col-12 mb-4'>
-                <div class='p-2 d-flex align-items-center justify-content-center'>
-                    <a href='/mycar'>
-                        <h5 class='text-dark'>I don't care</h5>
-                    </a>
-                </div>
-            </div>
-        </div>
->>>>>>> f6b1f11f4f39791e34ba351df3d166a48958007c
     </div>
 </div>
 
