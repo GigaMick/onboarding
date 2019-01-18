@@ -35,7 +35,7 @@
 <p class="choices">Choices so far: {{$fueltype}}</p>
 
 <footer class="footer">
-    <a href="/search" class="ch-btn ch-btn--block ch-btn--success hero__button">Next</a>
+    <a href="/search/budget" class="ch-btn ch-btn--block ch-btn--success hero__button">Next</a>
     <a href="#"><p>I’m not sure, show me vehicles</p></a>
 </footer>
 @endsection
