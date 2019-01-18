@@ -1,38 +1,37 @@
 @extends('layouts.app')
 
 @section('content')
-<div class='container'>
-    <div class='row'>
-        <div class='col-6'>
-            <div class='card p-5 d-flex align-items-center justify-content-center'>
-                <a href='/search'>
-                    <h5 class='text-dark'>Find a car</h5>
-                </a>
-            </div>
-        </div>
+<header class="header">
+    <a href="/"><img class="header__logo" src="../images/logo.png"></a>
+    <img class="header__menu" src="../images/menu.png">
+</header>
 
-        <div class='col-6'>
-            <div class='card p-5 d-flex align-items-center justify-content-center'>
-                <a href='/mycar'>
-                    <h5 class='text-dark'>My Car</h5>
-                </a>
-            </div>
-        </div>
+<div class="hero">
+    <h1 class="hero__title">Let's find your <span class="nowrap">next car</span></h1>
+    <p class="hero__intro">Search 33,114 used cars at <span class="nowrap">the UK’s</span> number 1 dealer website</p>
+    <a href="/search" class="ch-btn ch-btn--success hero__button">Get started</a>
+</div>
+
+<div class="container">
+    <div class="grid grid--home">
+        <a class="card card--primary" href='/search'>
+            <img class="card__icon" src="images/car-size.png">
+            <h3 class="card__title card__title--home">Maintain my car</h3>
+            <p class="card__description">I’m looking for a service or MOT, or to book it in for something</p>
+        </a>
+
+        <a class="card" href='/search'>
+            <img class="card__icon" src="images/spanner.png">
+            <h3 class="card__title card__title--home">Sell my car</h3>
+            <p class="card__description">Get a free instant valuation and book an appointment online in minutes</p>
+        </a>
+
+        <a class="card" href='/search'>
+            <img class="card__icon" src="images/person.png">
+            <h3 class="card__title card__title--home">Speak to an advisor</h3>
+            <p class="card__description">Do you need some help with your car <span class="nowrap">or order?</span></p>
+        </a>
     </div>
-    <div class='row text-center mt-5'>
-        <div class='col-4'>
-            <a href='/abyc'>Sell my car</a>
-        </div>
-        <div class='col-4'>
-            <a href='/abyc'>Customer Service</a>
-
-        </div>
-        <div class='col-4'>
-            <a href='/abyc'>Skip</a>
-
-        </div>
-    </div>
-
 </div>
 
 @endsection
