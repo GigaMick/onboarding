@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ae8d5e9-2ab8-4280-bfeb-5ca2d6ba95ec" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/results.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SearchController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SearchController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/search-fueltype.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/search-fueltype.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/search-size.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/search-size.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/results.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/results.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,8 +29,8 @@
       <file leaf-file-name="SearchController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SearchController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="92" column="39" lean-forward="true" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="39" />
+            <state relative-caret-position="578">
+              <caret line="105" column="48" selection-start-line="105" selection-start-column="48" selection-end-line="105" selection-end-column="48" />
               <folding>
                 <element signature="e#48#76#0#PHP" expanded="true" />
               </folding>
@@ -58,8 +53,8 @@
       <file leaf-file-name="results.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/results.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="101" selection-start-line="16" selection-start-column="101" selection-end-line="16" selection-end-column="101" />
+            <state relative-caret-position="230">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -350,16 +345,15 @@
       <option name="presentableId" value="Default" />
       <updated>1547726922968</updated>
       <workItem from="1547726924645" duration="379000" />
-      <workItem from="1547727337114" duration="9926000" />
+      <workItem from="1547727337114" duration="10279000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10305000" />
+    <option name="totallyTimeSpent" value="10658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5027855" side_tool="true" weight="0.33887467" />
@@ -367,8 +361,8 @@
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32777777" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4972145" visible="true" weight="0.17333333" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="4" visible="true" weight="0.23958333" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4972145" visible="true" weight="0.17333333" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="4" visible="true" weight="0.23958333" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" weight="0.32998565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -477,8 +471,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SearchController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="92" column="39" lean-forward="true" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="39" />
+        <state relative-caret-position="578">
+          <caret line="105" column="48" selection-start-line="105" selection-start-column="48" selection-end-line="105" selection-end-column="48" />
           <folding>
             <element signature="e#48#76#0#PHP" expanded="true" />
           </folding>
@@ -487,8 +481,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/results.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="101" selection-start-line="16" selection-start-column="101" selection-end-line="16" selection-end-column="101" />
+        <state relative-caret-position="230">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>
