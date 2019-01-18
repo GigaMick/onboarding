@@ -35,15 +35,12 @@
         <input type="hidden" name='budget' value='{{$budget}}'>
         <input type="hidden" name='postcode' value='0'>
         <input type="hidden" name='size' value='{{$size}}'>
-        <!-- <input class='btn btn-block btn-info text-light py-3' type='submit' value="I Don't Care"> -->
+        <input class='ch-btn ch-mt--5 ch-btn--block text-light py-3' type='submit' value="I Don't Care">
     </form>
 </div>
 
 <p class="choices">Choices so far:  {{$fuel}}, {{$size}}</p>
 
-<footer class="footer">
-    <!-- <a href="/search/location" class="ch-btn ch-btn--block ch-btn--success hero__button">Next</a> -->
-    <a href="#"><p>I’m not sure, show me vehicles</p></a>
-</footer>
+
 
 @endsection
