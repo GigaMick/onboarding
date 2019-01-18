@@ -90,7 +90,7 @@
                 echo "cURL Error #:" . $err;
             }
 
-           $x = json_decode($response);
+           $cars = json_decode($response);
 
 
             //$encodedData = json_encode($data);
@@ -103,7 +103,7 @@
             //
 
 
-            return view('results', compact('x'));
+            return view('results', compact('cars'));
 
         }
 

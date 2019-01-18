@@ -8,7 +8,7 @@
             </div>
         </div>
 
-        @foreach ($x as $car)
+        @foreach ($cars as $car)
             <div class='row'>
                 <div class='col-12'>
                     <div class='card p-3 mb-2 text-center'>
