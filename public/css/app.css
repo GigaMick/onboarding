@@ -16898,6 +16898,7 @@ body {
 
 .container {
   padding: 20px;
+  padding-top: 0;
   text-align: center;
   max-width: none;
 }
@@ -16930,6 +16931,9 @@ body {
 }
 .grid--home {
   margin-top: -80px;
+}
+.grid--full {
+  grid-template-columns: 1fr;
 }
 
 .card {
@@ -17006,7 +17010,7 @@ body {
 }
 
 .title {
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 20px;
 }
 
@@ -17019,4 +17023,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.input {
+  margin-bottom: 10px;
+}
+
+.input--margin {
+  margin-bottom: 30px;
 }

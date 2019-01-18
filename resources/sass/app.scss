@@ -42,6 +42,7 @@ body {
 
 .container {
     padding: 20px;
+    padding-top: 0;
     text-align: center;
     max-width: none;
 }
@@ -78,6 +79,10 @@ body {
 
     &--home {
         margin-top: -80px;
+    }
+
+    &--full {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -169,8 +174,9 @@ body {
     }
 }
 
+// mess
 .title {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 20px;
 }
 
@@ -183,4 +189,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.input {
+    margin-bottom: 10px;
+}
+
+.input--margin {
+    margin-bottom: 30px;
 }

@@ -1,6 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
+<header class="header">
+    <a href="/"><img class="header__logo" src="../images/logo.png"></a>
+    <img class="header__menu" src="../images/menu.png">
+</header>
+
 <div class="stepper">
     <p>Find a vehicle</p>
     <p>Step 1 of 4</p>
