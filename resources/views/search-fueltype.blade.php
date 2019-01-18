@@ -7,7 +7,7 @@
 </div>
 
 <div class="container">
-    <img class="icon" src="https://via.placeholder.com/150x150">
+    <img class="icon" src="images/fuel-type.png">
     <h2 class="title">Choose your preferred fuel type</h2>
 
     <div class="grid">

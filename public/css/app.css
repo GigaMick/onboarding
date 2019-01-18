@@ -16906,16 +16906,20 @@ body {
   padding: 120px 30px;
   padding-bottom: calc(120px + 80px);
   text-align: center;
-  background-image: url("https://via.placeholder.com/150x150");
+  background-image: url(/images/hero.jpg?bb18c7b49122ea007792c2f76baadc53);
   background-size: cover;
   background-position: center center;
 }
 .hero__title {
   font-weight: 700;
   font-size: 30px;
+  color: #fff;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
 }
 .hero__intro {
   font-size: 18px;
+  color: #fff;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
 }
 
 .grid {
@@ -16933,7 +16937,7 @@ body {
   background: #fff;
   border-radius: 6px;
   border: 2px solid #e5e5e5;
-  padding: 30px;
+  padding: 25px 30px;
   align-self: center;
   display: flex;
   align-items: center;
@@ -16951,22 +16955,26 @@ body {
 .card__title--home {
   font-size: 21px;
 }
-.card--primary {
-  display: block;
-  height: auto;
-}
-.card--half {
-  grid-column: span 6;
+.card__sub {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 0 !important;
 }
 .card__icon {
-  width: 50px;
-  margin-bottom: 10px;
+  width: 80px;
 }
 .card__description {
   font-size: 16px;
   line-height: 1.5;
   color: #666;
   margin-bottom: 0;
+}
+.card--primary {
+  display: block;
+  height: auto;
+}
+.card--half {
+  grid-column: span 6;
 }
 
 .stepper {
@@ -17003,10 +17011,12 @@ body {
 }
 
 .icon {
-  width: 50px;
-  margin-bottom: 10px;
+  width: 80px;
 }
 
 .choices {
   font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

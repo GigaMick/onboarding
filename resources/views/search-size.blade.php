@@ -7,21 +7,23 @@
 </div>
 
 <div class="container">
-    <img class="icon" src="https://via.placeholder.com/150x150">
+    <img class="icon" src="../images/car-size.png">
     <h2 class="title">Choose your preferred car size</h2>
-    <p class="choices">Choices so far: {{$fueltype}}</p>
 
     <div class="grid">
         <a class="card card--half" href='/size/large'>
-            <h3 class="card__title">Large (SUV, Estate etc)</h3>
+            <h3 class="card__title">Large</h3>
+            <p class="card__sub">(SUV, Estate etc)</p>
         </a>
 
         <a class="card card--half" href='/size/medium'>
-            <h3 class="card__title">Medium (Saloons, coupes etc)</h3>
+            <h3 class="card__title">Medium</h3>
+            <p class="card__sub">(Saloons, <span class="nowrap">Coupés etc)</span></p>
         </a>
 
         <a class="card card--half" href='/size/small'>
-            <h3 class="card__title">Small (Hatchbacks)</h3>
+            <h3 class="card__title">Small</h3>
+            <p class="card__sub">(Hatchbacks)</p>
         </a>
 
         <a class="card card--half" href='/mycar'>
@@ -29,6 +31,8 @@
         </a>
     </div>
 </div>
+
+<p class="choices">Choices so far: {{$fueltype}}</p>
 
 <footer class="footer">
     <a href="/search" class="ch-btn ch-btn--block ch-btn--success hero__button">Next</a>
