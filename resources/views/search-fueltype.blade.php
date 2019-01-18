@@ -11,7 +11,7 @@
         <div class='row'>
             <div class='col-12 mb-3'>
                 <div class='card p-5 d-flex align-items-center justify-content-center'>
-                    <a href='/search/petrol'>
+                    <a href='/search/Petrol'>
                         <h5 class='text-dark'>Petrol</h5>
                     </a>
                 </div>
@@ -19,14 +19,14 @@
 
             <div class='col-12 mb-3'>
                 <div class='card p-5 d-flex align-items-center justify-content-center'>
-                    <a href='/search/diesel'>
+                    <a href='/search/Diesel'>
                         <h5 class='text-dark'>Diesel</h5>
                     </a>
                 </div>
             </div>
             <div class='col-12 mb-3'>
                 <div class='card p-5 d-flex align-items-center justify-content-center'>
-                    <a href='/search/electric'>
+                    <a href='/search/Electric'>
                         <h5 class='text-dark'>Electric</h5>
                     </a>
                 </div>
