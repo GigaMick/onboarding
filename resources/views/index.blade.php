@@ -14,7 +14,7 @@
 
 <div class="container">
     <div class="grid grid--home">
-        <a class="card card--primary" href='/search'>
+        <a class="card card--primary" href='/maintain'>
             <img class="card__icon" src="images/car-size.png">
             <h3 class="card__title card__title--home">Maintain my car</h3>
             <p class="card__description">I’m looking for a service or MOT, or to book it in for something</p>
